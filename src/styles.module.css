@@ -1,9 +1,36 @@
 /* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.container{
+  background-color: rgb(235, 11, 238);
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: space-between;
+  border: 2px solid rgb(9, 9, 9);
+ height: 100px;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+input{
+  width: 500px;
+}
+button{
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px ;
+}
+button:hover{
+  background-color: rgb(147, 147, 243);  
+  color: black; 
+  font-weight: bold;
+}
+#qrcode{
+  margin-top: 50px;
+    height: 150px;
+   
 }
