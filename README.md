@@ -15,15 +15,27 @@ npm install --save qr-code-simple
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'qr-code-simple'
+import {EnterUrl} from 'qr-code-simple'
 import 'qr-code-simple/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <EnterUrl options={{backgroundColor: 'yellowgreen', heightQrCode: '300px'}}/>
   }
 }
 ```
+
+### Available options
+
+|option                  |type     |default|
+|---           |---      |---      |
+|backgroundColor         |String   |pink   |
+|backgroundColorButton   |String   |blue   |
+colorTextButton          |String   |white  |
+|widthInput              |String   |500px  |
+|marginTopQrCode         |String   |50px   |
+|heightQrCode            |String   |150px  |
+
 
 ## License
 
